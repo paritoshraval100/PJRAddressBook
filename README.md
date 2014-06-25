@@ -31,8 +31,8 @@ How to use
 
 Import two files
 
-#import "PJRAddressBook.h"
-#import "PJRPersonContact.h"
+import "PJRAddressBook.h"
+import "PJRPersonContact.h"
 
 
 Add a Contact by: [PJRAddressBook addressbookOperationForContact:addContact withContacttype:ADD_CONTACT];
