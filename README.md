@@ -11,36 +11,43 @@ You can find many AddressBook related codes and components. But in normal use we
 So I have create AddressBook component with the help of “AddressBook Framework”.So instead of writing bunch of code you can fulfil your requirement by single line of code.
 
 
-What is new ?
+**What is new ?**
 
 In normal cases other components contains demo with less parameters like name , date, company while we need others too.
 
 So this Components performs operations with
 
-firstName       department              street				mobilePhone
-lastName	homeEmail		city				mainPhone
-fullName	workEmail		state				iPhonePhone;
-company					country				homeFaxPhone
-Birthday				zipcode				workFaxPhone
-					countrycode			otherFaxPhone
-									pagerPhone
+firstName,       department,              street,				mobilePhone
+lastName,	homeEmail,		city,				mainPhone,
+fullName,	workEmail,		state,				iPhonePhone,
+company,				country,				homeFaxPhone,
+Birthday,				zipcode,				workFaxPhone,
+					countrycode,			otherFaxPhone,
+									pagerPhone,
 
 How to use
 =====================
 
 Import two files
 
-import "PJRAddressBook.h"
-import "PJRPersonContact.h"
+**import "PJRAddressBook.h”**
+**import "PJRPersonContact.h”**
 
 
-Add a Contact by: [PJRAddressBook addressbookOperationForContact:addContact withContacttype:ADD_CONTACT];
+- **Add a Contact by:** ```objective-c
+[PJRAddressBook addressbookOperationForContact:addContact withContacttype:ADD_CONTACT];```
 
-Update particular contact by: [PJRAddressBook addressbookOperationForContact:addContact withContacttype:UPDATE_CONTACT];
 
-Delete particular contact by: [PJRAddressBook addressbookOperationForContact:addContact withContacttype:DELETE_CONTACT];
+- **Update particular contact by:** ```objective-c
+[PJRAddressBook addressbookOperationForContact:addContact withContacttype:UPDATE_CONTACT];```
 
-Get all contact array by: [PJRAddressBook getPersonContacts];
+
+- **Delete particular contact by:** ```objective-c
+[PJRAddressBook addressbookOperationForContact:addContact withContacttype:DELETE_CONTACT];```
+
+- **Get all contact array by:** ```objective-c
+[PJRAddressBook getPersonContacts];```
+
 
 
      
