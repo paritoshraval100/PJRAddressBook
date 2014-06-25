@@ -20,11 +20,11 @@ So this Components performs operations with
 ```
 
 
-firstName,       department,              street,				mobilePhone
+firstName,      department,             street,				mobilePhone
 lastName,	homeEmail,		city,				mainPhone,
 fullName,	workEmail,		state,				iPhonePhone,
-company,				country,				homeFaxPhone,
-Birthday,				zipcode,				workFaxPhone,
+company,				country,			homeFaxPhone,
+Birthday,				zipcode,			workFaxPhone,
 					countrycode,			otherFaxPhone,
 									pagerPhone
 ```
@@ -35,8 +35,8 @@ How to use
 
 **Import two files**
 
-**import "PJRAddressBook.h”** and
-**import "PJRPersonContact.h”**
+**PJRAddressBook.h** and
+**PJRPersonContact.h**
 
 
 - **Add a Contact by:** ```
