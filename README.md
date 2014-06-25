@@ -17,35 +17,40 @@ In normal cases other components contains demo with less parameters like name , 
 
 So this Components performs operations with
 
+```
+
+
 firstName,       department,              street,				mobilePhone
 lastName,	homeEmail,		city,				mainPhone,
 fullName,	workEmail,		state,				iPhonePhone,
 company,				country,				homeFaxPhone,
 Birthday,				zipcode,				workFaxPhone,
 					countrycode,			otherFaxPhone,
-									pagerPhone,
+									pagerPhone
+```
+
 
 How to use
 =====================
 
-Import two files
+**Import two files**
 
-**import "PJRAddressBook.h”**
+**import "PJRAddressBook.h”** and
 **import "PJRPersonContact.h”**
 
 
-- **Add a Contact by:** ```objective-c
+- **Add a Contact by:** ```
 [PJRAddressBook addressbookOperationForContact:addContact withContacttype:ADD_CONTACT];```
 
 
-- **Update particular contact by:** ```objective-c
+- **Update particular contact by:** ```
 [PJRAddressBook addressbookOperationForContact:addContact withContacttype:UPDATE_CONTACT];```
 
 
-- **Delete particular contact by:** ```objective-c
+- **Delete particular contact by:** ```
 [PJRAddressBook addressbookOperationForContact:addContact withContacttype:DELETE_CONTACT];```
 
-- **Get all contact array by:** ```objective-c
+- **Get all contact array by:** ```
 [PJRAddressBook getPersonContacts];```
 
 
