@@ -26,7 +26,6 @@ Birthday				zipcode				workFaxPhone
 									pagerPhone
 
 How to use
-
 =====================
 
 Import two files
