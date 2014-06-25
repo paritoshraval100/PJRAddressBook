@@ -18,15 +18,7 @@ In normal cases other components contains demo with less parameters like name , 
 So this Components performs operations with
 
 ```
-
-
-firstName,      department,             street,				mobilePhone
-lastName,	homeEmail,		city,				mainPhone,
-fullName,	workEmail,		state,				iPhonePhone,
-company,				country,			homeFaxPhone,
-Birthday,				zipcode,			workFaxPhone,
-					countrycode,			otherFaxPhone,
-									pagerPhone
+firstName, lastName, fullName department, company, Birthday, homeEmail, workEmail, city, state, country, zipcode, countrycode, street,mobilePhone,mainPhone,iPhonePhone,homeFaxPhone,workFaxPhone,otherFaxPhone,pagerPhone
 ```
 
 
