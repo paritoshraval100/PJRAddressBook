@@ -3,7 +3,7 @@ PJR AddressBook
 
 It is an AddressBook Component by which you can perform AddressBook related operations like Add Contacts , Updated Contacts , Delete Contacts and Get All Contacts.
 
-Why I have to use this component and what is new in it ?
+Why it is useful to you and what is new in it ?
 ===============================================================
 
 You can find many AddressBook related codes and components. But in normal use we need list of address book contact in our applications.Most of requirements are to show list in Tableview and perform Add-Update-Remove operations.
